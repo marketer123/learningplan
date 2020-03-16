@@ -46,6 +46,7 @@ module.exports = function (ctx) {
       components: [
         'QLayout',
         'QHeader',
+        'QDate',
         'QDrawer',
         'QPageContainer',
         'QPage',
@@ -53,10 +54,12 @@ module.exports = function (ctx) {
         'QToolbarTitle',
         'QBtn',
         'QIcon',
+        'QInput',
         'QList',
         'QItem',
         'QItemSection',
-        'QItemLabel'
+        'QItemLabel',
+        'QPopupProxy'
       ],
 
       directives: [
